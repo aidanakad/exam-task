@@ -1,0 +1,56 @@
+@import url('./siteInfo.css');
+
+:root{
+    --text-color:rgb(209, 209, 209);
+    --btn-color:rgb(49, 140, 245);
+    --h1-bg: rgb(36, 41, 48);
+    --body-bg:rgba(230, 238, 240, 0.925);
+}
+
+body{
+    font-family: sans-serif;
+}
+
+body, h1{
+    margin: 0;
+}
+
+.container{
+    padding: 0px 15px;
+    margin: 0 auto;
+    background: var(--body-bg);
+    height: 100vh;
+}
+
+@media (min-width: 576px) {
+    .container {
+        width: 546px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 738px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 962px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+h1{
+    max-height: 80px;
+    padding: 25px 0 25px 20px;
+    background: var(--h1-bg);
+    color: var(--text-color);
+    font-weight: normal;
+    font-size: 50px;
+}
