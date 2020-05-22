@@ -1,4 +1,5 @@
 @import url('./siteInfo.css');
+@import url('team-block.css');
 
 :root{
     --text-color:rgb(209, 209, 209);
