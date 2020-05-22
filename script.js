@@ -6,11 +6,15 @@ fetch('https://randomuser.me/api/?results=8')
         data.results.forEach(member => {
 
             const name = document.createElement('div')
+
             const photo = document.createElement('img')
+            photo.className='pic'
+            
             photo.setAttribute("src", member.picture.large)
             photo.setAttribute("alt", "avatar")
             
-            name.textContent = `${member.name.title} ${member.name.first} ${member.name.last}`
+            name.textContent = `${member.name.first} ${member.name.last}`
+            name.className = 'name'
 
             team.appendChild(name)
             team.appendChild(photo)
