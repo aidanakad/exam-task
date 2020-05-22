@@ -14,7 +14,7 @@
             <img src="./img/logo.jpeg" alt="logo">
             <div class="content">
                 <p>Anonymous is a decentralized international hacktivist group that is widely known for its various cyber attacks against several governments, government institutions and government agencies, corporations, and the Church of Scientology.</p>
-                <button>Learn more</button>
+                <button onclick="window.open('https:en.wikipedia.org/wiki/Anonymous_(group)')">Learn more</button>
             </div>
         </div>
 
@@ -29,19 +29,21 @@
         <div class="form-block">
             <h1>Contact us</h1>
             <form>
+                <div class="info">
+                    <label>
+                        
+                        <input type="text" placeholder="Name">
+                    </label>
+
+                    <label>
+                        
+                        <input type="text" placeholder="Surname">
+                    </label>
+                </div>
                 <label>
-                    Name
-                    <input type="text" placeholder="Name">
-                </label>
-                <label>
-                    Surname
-                    <input type="text" placeholder="Surname">
-                </label>
-                <label>
-                    Email
-                    <input type="text" placeholder="email@example.com">
-                </label>
-                Message
+                    <input type="text" class="email" placeholder="email@example.com">
+                </label> <br>
+                 
                 <textarea placeholder="message"></textarea>
             </form>
             <button>Send Message</button>
@@ -49,7 +51,7 @@
 
     </div>
 
-
     <script src="./script.js"></script>
+    <footer> © 2020 Copyright</footer>
 </body>
 </html>

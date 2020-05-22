@@ -1,10 +1,11 @@
 @import url('./siteInfo.css');
-@import url('team-block.css');
+@import url('./team-block.css');
+@import url('./form-block.css');
 
 :root{
     --text-color:rgb(209, 209, 209);
     --btn-color:rgb(49, 140, 245);
-    --h1-bg: rgb(36, 41, 48);
+    --dark-bg: rgb(36, 41, 48);
     --body-bg:rgba(230, 238, 240, 0.925);
 }
 
@@ -50,8 +51,12 @@ body, h1{
 .title{
     max-height: 80px;
     padding: 25px 0 25px 20px;
-    background: var(--h1-bg);
+    background: var(--dark-bg);
     color: var(--text-color);
     font-weight: normal;
     font-size: 50px;
+}
+
+footer{
+    height: 80px;
 }
