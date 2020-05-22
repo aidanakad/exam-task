@@ -21,7 +21,7 @@ body, h1{
     padding: 0px 15px;
     margin: 0 auto;
     background: var(--body-bg);
-    height: 100vh;
+    
 }
 
 @media (min-width: 576px) {
@@ -58,5 +58,9 @@ body, h1{
 }
 
 footer{
-    height: 80px;
+    height: 40px;
+    background: var(--dark-bg);
+    color: var(--text-color);
+    text-align: center;
+    padding-top: 39px;
 }

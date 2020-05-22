@@ -13,7 +13,7 @@ input{
     border-radius: 4px;
     border: 1px solid var(--dark-bg);
     padding-left: 10px;
-    background: none;
+    background:  white;
 }
 
 .info{
@@ -35,9 +35,13 @@ input{
 textarea{
     width: 532px;
     height: 100px;
-    background: none;
+    background: white;
     margin-bottom: 20px;
     border-radius: 6px;
     border: 1px solid var(--dark-bg);
     padding-left: 10px;
+}
+
+.form-block button{
+    margin-bottom: 20px;
 }
