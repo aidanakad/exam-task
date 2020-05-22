@@ -46,7 +46,7 @@ body, h1{
     }
 }
 
-h1{
+.title{
     max-height: 80px;
     padding: 25px 0 25px 20px;
     background: var(--h1-bg);
