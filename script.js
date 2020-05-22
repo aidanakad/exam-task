@@ -25,11 +25,6 @@ fetch('https://randomuser.me/api/?results=8')
             team.appendChild(box)
             box.appendChild(photo)
             box.appendChild(name)
-
            
         })
     })
-
-    
-
-   
